@@ -1,0 +1,37 @@
+package logindemo.dao;
+
+
+import java.util.Iterator;
+import java.util.List;
+
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.Transaction;
+import org.hibernate.cfg.Configuration;
+
+import com.logindemo.LoginDetails;
+import com.logindemo.UserDetails;
+
+public class LoginDao {
+	
+	public static boolean validate(LoginDetails search) {
+		String user = sea
+		Configuration config = new Configuration();
+		config.configure();
+		SessionFactory factory = config.buildSessionFactory();
+		Session session = factory.openSession();
+		Transaction tx = session.beginTransaction();
+		List li = session.createQuery("from Userdetails ud").list();
+		Iterator it = li.iterator();
+		while(it.hasNext()) {
+			Object obj = it.next();
+			UserDetails ld = (UserDetails) obj;
+			System.out.println("username:"+ld.getUserName());
+			System.out.println("password:"+ld.getPassword());
+			return true;
+		}
+		tx.commit();
+		session.close();
+		return false;
+	}
+}

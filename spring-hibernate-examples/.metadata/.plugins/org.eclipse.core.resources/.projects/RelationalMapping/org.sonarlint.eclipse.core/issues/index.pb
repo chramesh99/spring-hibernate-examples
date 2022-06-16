@@ -1,0 +1,23 @@
+
+7
+pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
+f
+6src/main/java/com/onetoone/anotherexample/Student.java,5\5\55fbfb3c3be91fa226328f4bddf4cc71b5d6ae52
+e
+5src/main/java/com/onetoone/RelationalMapping/App.java,1\6\16ca155047ab51c652290c235e654a70a70e844a
+i
+9src/main/java/com/onetoone/RelationalMapping/Product.java,0\8\087d5ae6e4b7a3c3901af87f311b2dc1a5d39c2e
+p
+@src/main/java/com/onetoone/RelationalMapping/ProductDetails.java,9\5\9582d44b1e22030aa1785a4ba4e7ac15a57d072c
+O
+src/main/java/hibernate.cfg.xml,9\f\9f3ebed534d0b44eecf0221d7da0ad85eae33a46
+U
+%src/main/java/com/onetomany/Main.java,2\a\2a51e4e5f0ad3b540185acf736f306fd4b5c8eaf
+X
+(src/main/java/com/onetomany/Product.java,7\5\7568b41c7451fa12e9f4a2385132e445468833dd
+Y
+)src/main/java/com/onetomany/Category.java,0\b\0ba48927e8543a1d0514769e2d8441897ad67414
+e
+5src/main/java/com/onetoone/anotherexample/Laptop.java,7\d\7d3a1da8f0af022202bcda8b2c84ada0b99fa52b
+c
+3src/main/java/com/onetoone/anotherexample/Main.java,d\f\dfc9130e67f2701a350498e00bf626227e1322ba
